@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Styling av tekst</title>
+</head>
+<body>
+
+<h1>Eksempler på ulik styling av teskt, det vil si deler av tekst i et avsnitt</h1>
+<h2>Først eksempel på bruk av semantiske HTML-tag'er, LCK side 122</h2>
+<p>I dette avsnittet har jeg formatert deler av teksten med <em>"vektleggingstagen"</em>.</p>
+<p>I dette avsnittet har jeg formatert deler av teksten med <strong>"strek vektleggingstagen"</strong>.</p>
+
+<h2>Så noen eksempler på bruk av fysiske (HTML) style-tag'er som har overlevd til HTML5, LCK side 124</h2>
+<p>I dette avnsittet har jeg formatert deler av teksten med <b>"uthev tag'en"</b>.</p>
+<p>I dette avsnittet har jeg formatert deler av teksten med <i>"kursiv tag'en"</i>.</p>
+<p>I dette avsnittet har jeg formatert deler av teksten med <u>"understrek tag'en"</u>.</p>
+
+<h2>Formatering ved bruk av CSS, LCK side 125.</h2>
+<p>Da får vi bruk for <span>"span-tag'en" som ikke har noen effekt på egenhand (brukt alene)</span>,
+men vi kan bruke den sammen med style-atributter.</p>
+<h3>Text Decoration Property</h3>
+<p>I dette avsnittet er deler av teksten stylet med <span style="text-decoration: underline;"> 
+understreket tekst</span>.</p> <!-- Side 125 i boka -->
+<p>w3schools.com: It is not recommended to underline text that is not a 
+link, as this often confuses user.</p>
+<p>I dette avsnittet er deler av teksten stylet med 
+<span style="text-decoration: line-through;"> gjennomstreket tekst</span>.</p> 
+<!--Gjennomstreking brukes en del-->
+<p>w3schools.com: text-decoration property is mostly used to remove underline from link.</p>
+
+<h3>Font Properties</h3>
+<p>I dette avsnittet er deler av teksten stylet med <span style="font-style: italic;">kursiv tekst</span>.</p>
+<!--Dette er tungvint for mindre deler med tekst -->
+<p>I dette avsnittet er deler av teksten stylet med <span style="font-weight: bold;">uthevet tekst</span>.</p>
+
+<br> <!--Linjeskift. Har ikke start og slutt, betyr bare linjeskift.-->
+<p>Dette er et nytt avsnitt etter et linjeskift. Etter et avsnitt fungerer linjeskift som en "tom linje".</p>
+<p>Det kan også legges inn linjeskift<br>i et avsnitt.<br>Innen et avsnitt fungerer det som fast linjeskift.
+<br>Det kan da være greit "å brekke" teksten når en bruker tag for linjeskift for linjeskift, jfr forelesning 1.</p>
+<h1>Preformatert tekst</h1>
+<pre> <!--Vi skal IKKE bruke TAB-->
+------------------------------------------
+   overskrift1   overskrift2   overskrift3
+------------------------------------------
+      100            200           300
+      500            400           300
+      300            600           900
+------------------------------------------
+</pre> <!--Forutsatt at man bruker mono-space-->
+
+<!--Dagens siste. Sitater:-->
+<h1>Sitater</h1>
+<blockquote>
+Guns aren't lawful,<br>
+nooses give.<br>
+Gas smell awefull.<br>
+You might as well live.
+</blockquote> <!--Fra boka-->
+<p>-- Dorothy Parker</p>
+
+</body>
+</html>
+
+<!--Til neste forelesning: Lese kapittel 1-4 og 7 (for gjennomgåtte tag'er). Vært igjennom 1-4, og store deler av kap 7. Dette er ferdig gennomgått -->
+<!--Les kapittel 5 som er nytt stoff -->
